@@ -38,22 +38,36 @@ int main()
 
 
 	//Strings///////////////////////////////
+	
 	//C style strings///
+	//char MyCString[5] = { 'D', 'o', 'g', 's', '\0' };
+	//cout << MyCString << endl;
+	////C++ Strings///
+	//string MyString;
+	//MyString = "My dog's name is: ";
+	//string fName = "Halen";
+	//string lName = "Rowley";
+	//MyString += fName;
+	//MyString += " ";
+	//MyString += lName;
+	//cout << MyString << endl;
 
-	char MyCString[5] = { 'D', 'o', 'g', 's', '\0' };
-	cout << MyCString << endl;
+	//AND / OR Conditionals/////////////////
+	
+	/*int i = 1;
+	int j = 2;
+	int k = 3;
+	if (i == k || i == j) {
+		cout << "worked" << endl;
+	}
+	else if (i <= k && i < j) {
+		cout << "worked" << endl;
+	}
+	else {
+		cout << "Didn't work" << endl;
+	}*/
 
-	string MyString;
-	MyString = "My dog's name is: ";
-	string fName = "Halen";
-	string lName = "Rowley";
-
-	MyString += fName;
-	MyString += " ";
-	MyString += lName;
-
-	cout << MyString << endl;
-
+	//Arrays////////////////////////////////
 
 	system("pause");
 }
