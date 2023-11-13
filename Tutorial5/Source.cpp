@@ -69,6 +69,24 @@ int main()
 
 	//Arrays////////////////////////////////
 
+	int intArr[10];
+
+	for (int i = 0; i < 10; i++) {
+		intArr[i] = i * 5;
+		cout << intArr[i] << endl;
+	}
+
+	cout << "the first element is: " << intArr[0] << endl;
+
+	cout << "the fifth element is: " << intArr[4] << endl;
+
+	int intArr2[] = { 1,123,43,345,66 };
+	cout << "the 2nd element of arr2 is: " << intArr2[1] << endl;
+
+	for (int i = 0; i < 5; i++) {
+		cout << intArr2[i] << endl;
+	}
+
 	system("pause");
 }
 
